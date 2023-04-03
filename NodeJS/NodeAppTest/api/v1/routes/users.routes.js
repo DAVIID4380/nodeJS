@@ -1,5 +1,5 @@
 //const db = require('../../../models');
-const {Router, request} = require('express');
+const {Router} = require('express');
 const userController = require('../../../controllers/userController');
 
 // Create router to use verbs HTTP
