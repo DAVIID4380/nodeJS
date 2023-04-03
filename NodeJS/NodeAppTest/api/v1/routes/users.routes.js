@@ -3,7 +3,7 @@ const {Router} = require('express');
 const userController = require('../../../controllers/userController');
 
 // Create router to use verbs HTTP
-const router = router(); // method router express
+const router = Router(); // method router express
 
 router.get("/", userController.getAllUsers);
 
